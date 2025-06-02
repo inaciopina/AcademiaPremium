@@ -7,28 +7,42 @@
 
 ## 📋 Sobre o Projeto
 
-Academia Premium é uma aplicação web moderna desenvolvida para gerenciamento de academias, oferecendo uma experiência completa tanto para administradores quanto para alunos. O projeto foi construído com as mais recentes tecnologias do mercado, garantindo performance, segurança e uma excelente experiência do usuário.
+Academia Premium é uma aplicação web moderna desenvolvida para revolucionar a experiência digital das academias. Inspirada nas melhores práticas do mercado fitness, a plataforma oferece uma interface intuitiva e funcionalidades essenciais para o gerenciamento de academias.
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades Implementadas
 
-- 🎯 Interface moderna e responsiva
-- 👥 Gestão de alunos e instrutores
-- 📅 Agendamento de treinos
-- 💪 Acompanhamento de progresso
-- 📱 Design mobile-first
-- 🔒 Sistema de autenticação seguro
-- 📊 Dashboard administrativo
+### 🎯 Sistema de Autenticação
+- Login e registro de usuários
+- Validação de dados
+- Interface intuitiva e responsiva
+
+### 💪 Catálogo de Treinos
+- Treinos de Força
+- Treinos Funcionais
+- Treinos Cardio
+- Descrições detalhadas de cada modalidade
+
+### 👥 Perfil de Instrutores
+- Especialistas em diferentes modalidades
+- Informações profissionais
+- Especialidades destacadas
+
+### 📱 Interface Moderna
+- Design responsivo
+- Animações suaves com Framer Motion
+- Experiência mobile-first
+- Feedback visual imediato
 
 ## 🚀 Tecnologias Utilizadas
 
-- React 18
-- TypeScript
-- TailwindCSS
-- Framer Motion
-- React Router
-- Vite
-- ESLint
-- Prettier
+- **React 18** - Interface dinâmica e componentização
+- **TypeScript** - Tipagem estática e código robusto
+- **TailwindCSS** - Estilização moderna e responsiva
+- **Framer Motion** - Animações fluidas e interativas
+- **React Router** - Navegação entre páginas
+- **Vite** - Build e desenvolvimento otimizado
+- **ESLint** - Padronização de código
+- **Prettier** - Formatação automática
 
 ## 🛠️ Instalação
 
@@ -53,12 +67,33 @@ npm run dev
 ```
 src/
 ├── components/     # Componentes reutilizáveis
+│   ├── Navbar.tsx
+│   ├── ThemeProvider.tsx
+│   └── Toast.tsx
 ├── pages/         # Páginas da aplicação
+│   ├── Home.tsx
+│   ├── Login.tsx
+│   ├── Register.tsx
+│   ├── Plans.tsx
+│   ├── Workouts.tsx
+│   ├── Trainers.tsx
+│   └── Profile.tsx
 ├── constants/     # Constantes e configurações
+│   ├── images.ts
+│   └── index.ts
 ├── types/         # Definições de tipos TypeScript
 ├── utils/         # Funções utilitárias
 └── assets/        # Recursos estáticos
 ```
+
+## 🎨 Design e UX
+
+- Interface moderna e clean
+- Animações suaves com Framer Motion
+- Sistema de cores consistente
+- Feedback visual imediato
+- Navegação intuitiva
+- Elementos interativos
 
 ## 🤝 Contribuindo
 
